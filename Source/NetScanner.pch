@@ -1,0 +1,5 @@
+#define MAC_OS_X_VERSION_MIN_REQUIRED MAC_OS_X_VERSION_10_3
+
+#import <Cocoa/Cocoa.h>
+#import <Plugins/Plugins.h>
+#import <RadioStore/RadioStore.h>

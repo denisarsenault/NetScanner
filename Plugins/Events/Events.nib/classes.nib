@@ -1,0 +1,48 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                onEventDeleteAction = id; 
+                onEventEditorCancel = id; 
+                onEventEditorOK = id; 
+                onEventNewAction = id; 
+                onEventTriggerType = id; 
+            }; 
+            CLASS = EventEditor; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "editor_sheet" = NSWindow; 
+                "event_actions_table" = NSTableView; 
+                "event_editor_label" = NSTextField; 
+                "event_trigger_box" = NSBox; 
+                "event_trigger_type" = NSPopUpButton; 
+                "notification_trigger_view" = NSView; 
+                "radio_trigger_view" = NSView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {onToolbarDelete = id; onToolbarEdit = id; onToolbarNew = id; }; 
+            CLASS = EventsPlugin; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "event_editor" = EventEditor; 
+                "events_inspector" = NSView; 
+                "events_inspector_actions" = NSTextField; 
+                "events_inspector_label" = NSTextField; 
+                "events_inspector_trigger" = NSTextField; 
+                "events_preferences" = NSView; 
+                "events_table" = NSTableView; 
+                "events_toolbar_delete" = NSButton; 
+                "events_toolbar_edit" = NSButton; 
+                "events_toolbar_new" = NSButton; 
+                "events_view" = NSView; 
+            }; 
+            SUPERCLASS = Plugin; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = Plugin; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = PluginsEnvironment; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

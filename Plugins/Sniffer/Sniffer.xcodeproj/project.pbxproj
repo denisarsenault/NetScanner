@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75E1EDE30D3685BB00040774 /* Plugins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75E1EDE20D3685B400040774 /* Plugins.framework */; };
+		75E1EDEB0D3685E700040774 /* SnifferPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E1EDEA0D3685E700040774 /* SnifferPlugin.m */; };
+		75E1EDEE0D3686B800040774 /* Sniffer.nib in Resources */ = {isa = PBXBuildFile; fileRef = 75E1EDED0D3686B800040774 /* Sniffer.nib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75E1EDE10D3685B400040774 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75E1EDDD0D3685B300040774 /* Plugins.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 75B3DDA2088777A200F6B90C /* Plugins.framework */;
+			remoteInfo = Plugins.framework;
+		};
+		75E1EDE40D3685C700040774 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75E1EDDD0D3685B300040774 /* Plugins.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 75B3DDA1088777A200F6B90C /* Plugins.framework */;
+			remoteInfo = Plugins.framework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75E1EDCF0D36852D00040774 /* Sniffer.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sniffer.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E1EDD10D36852D00040774 /* Sniffer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sniffer-Info.plist"; sourceTree = "<group>"; };
+		75E1EDDD0D3685B300040774 /* Plugins.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Plugins.xcodeproj; path = ../../Frameworks/Plugins/Plugins.xcodeproj; sourceTree = SOURCE_ROOT; };
+		75E1EDE90D3685E700040774 /* SnifferPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnifferPlugin.h; sourceTree = "<group>"; };
+		75E1EDEA0D3685E700040774 /* SnifferPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnifferPlugin.m; sourceTree = "<group>"; };
+		75E1EDED0D3686B800040774 /* Sniffer.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = Sniffer.nib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75E1EDCD0D36852D00040774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E1EDE30D3685BB00040774 /* Plugins.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75E1EDC00D36851100040774 = {
+			isa = PBXGroup;
+			children = (
+				75E1EDDA0D3685A000040774 /* Source */,
+				75E1EDD90D36855C00040774 /* Resources */,
+				75E1EDD00D36852D00040774 /* Products */,
+				75E1EDD80D36855300040774 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		75E1EDD00D36852D00040774 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75E1EDCF0D36852D00040774 /* Sniffer.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75E1EDD80D36855300040774 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75E1EDDD0D3685B300040774 /* Plugins.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75E1EDD90D36855C00040774 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				75E1EDD10D36852D00040774 /* Sniffer-Info.plist */,
+				75E1EDED0D3686B800040774 /* Sniffer.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		75E1EDDA0D3685A000040774 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				75E1EDE90D3685E700040774 /* SnifferPlugin.h */,
+				75E1EDEA0D3685E700040774 /* SnifferPlugin.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		75E1EDDE0D3685B300040774 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75E1EDE20D3685B400040774 /* Plugins.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75E1EDCE0D36852D00040774 /* Sniffer.plugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75E1EDD40D36852E00040774 /* Build configuration list for PBXNativeTarget "Sniffer.plugin" */;
+			buildPhases = (
+				75E1EDCB0D36852D00040774 /* Resources */,
+				75E1EDCC0D36852D00040774 /* Sources */,
+				75E1EDCD0D36852D00040774 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75E1EDE50D3685C700040774 /* PBXTargetDependency */,
+			);
+			name = Sniffer.plugin;
+			productName = Sniffer.plugin;
+			productReference = 75E1EDCF0D36852D00040774 /* Sniffer.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75E1EDC20D36851100040774 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 75E1EDC50D36851100040774 /* Build configuration list for PBXProject "Sniffer" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = 75E1EDC00D36851100040774;
+			productRefGroup = 75E1EDD00D36852D00040774 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 75E1EDDE0D3685B300040774 /* Products */;
+					ProjectRef = 75E1EDDD0D3685B300040774 /* Plugins.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				75E1EDCE0D36852D00040774 /* Sniffer.plugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		75E1EDE20D3685B400040774 /* Plugins.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Plugins.framework;
+			remoteRef = 75E1EDE10D3685B400040774 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75E1EDCB0D36852D00040774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E1EDEE0D3686B800040774 /* Sniffer.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75E1EDCC0D36852D00040774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E1EDEB0D3685E700040774 /* SnifferPlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75E1EDE50D3685C700040774 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Plugins.framework;
+			targetProxy = 75E1EDE40D3685C700040774 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		75E1EDC30D36851100040774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		75E1EDC40D36851100040774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		75E1EDD20D36852D00040774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Sniffer-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Sniffer;
+				WRAPPER_EXTENSION = plugin;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		75E1EDD30D36852D00040774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Sniffer-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Sniffer.plugin;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75E1EDC50D36851100040774 /* Build configuration list for PBXProject "Sniffer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E1EDC30D36851100040774 /* Debug */,
+				75E1EDC40D36851100040774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75E1EDD40D36852E00040774 /* Build configuration list for PBXNativeTarget "Sniffer.plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E1EDD20D36852D00040774 /* Debug */,
+				75E1EDD30D36852D00040774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75E1EDC20D36851100040774 /* Project object */;
+}

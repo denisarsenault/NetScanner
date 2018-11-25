@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>NetScanner</string>
+	<key>CFBundleGetInfoString</key>
+	<string>NetScanner Release 01</string>
+	<key>CFBundleHelpBookFolder</key>
+	<string>NetScannerHelp</string>
+	<key>CFBundleHelpBookName</key>
+	<string>NetScanner Help</string>
+	<key>CFBundleIconFile</key>
+	<string>NetScanner-logo</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Net Scanner</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1</string>
+	<key>CFBundleSignature</key>
+	<string>istu</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright 2016 Denis Arsenault</string>
+	<key>NSMainNibFile</key>
+	<string>NetScannerScanner</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>SUCheckAtStartup</key>
+	<true/>
+	<key>SUFeedURL</key>
+	<string>http://denisarsenault.com/feeds/appcast.rss</string>
+</dict>
+</plist>

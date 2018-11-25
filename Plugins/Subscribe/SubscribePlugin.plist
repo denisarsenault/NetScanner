@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Subscribe</string>
+	<key>CFBundleIconFile</key>
+	<string>NSApplicationIcon</string>
+	<key>CFBundleIdentifier</key>
+	<string>net.istumbler.plugins.subscribe</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>alfw</string>
+	<key>CFBundleVersion</key>
+	<string>94</string>
+	<key>NSMainNibFile</key>
+	<string>SubscribePlugin.nib</string>
+	<key>NSPrincipalClass</key>
+	<string>SubscribePlugin</string>
+	<key>plugin.feedurl</key>
+	<string>http://istumbler.net/feeds/subscribe.rss</string>
+	<key>plugin.helpurl</key>
+	<string>http://istumbler.net/subscribe.html</string>
+	<key>plugin.homeurl</key>
+	<string>http://istumbler.net/subscribe.html</string>
+	<key>plugin.info</key>
+	<string>iStumbler Subscribe Plugin © Alf Watt 2005</string>
+	<key>plugin.name</key>
+	<string>Subscribe</string>
+</dict>
+</plist>

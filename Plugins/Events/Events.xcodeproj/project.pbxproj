@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7532177F088CC128005FCA04 /* EventsPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 75321774088CC128005FCA04 /* EventsPlugin.m */; };
+		75321780088CC128005FCA04 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 75321776088CC128005FCA04 /* Event.m */; };
+		75321781088CC128005FCA04 /* EventAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 75321778088CC128005FCA04 /* EventAction.m */; };
+		75321782088CC128005FCA04 /* EventTrigger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7532177A088CC128005FCA04 /* EventTrigger.m */; };
+		75321783088CC128005FCA04 /* EventEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7532177C088CC128005FCA04 /* EventEditor.m */; };
+		75321784088CC128005FCA04 /* EventActionEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7532177E088CC128005FCA04 /* EventActionEditor.m */; };
+		75321786088CC157005FCA04 /* Events.nib in Resources */ = {isa = PBXBuildFile; fileRef = 75321785088CC157005FCA04 /* Events.nib */; };
+		75321793088CC1A5005FCA04 /* Plugins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7532175B088CC09F005FCA04 /* Plugins.framework */; };
+		756ED2D9090359CD00776852 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 756ED2D8090359CD00776852 /* Growl.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		756ED2880903578A00776852 /* Development */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Development;
+		};
+		756ED2890903578A00776852 /* Deployment */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Deployment;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		7532175A088CC09F005FCA04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75321756088CC09F005FCA04 /* Plugins.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 75B3DDA2088777A200F6B90C;
+			remoteInfo = Plugins.framework;
+		};
+		75321796088CC1AC005FCA04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75321756088CC09F005FCA04 /* Plugins.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 75B3DDA1088777A200F6B90C;
+			remoteInfo = Plugins.framework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75321756088CC09F005FCA04 /* Plugins.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Plugins.xcodeproj; path = ../../Frameworks/Plugins/Plugins.xcodeproj; sourceTree = SOURCE_ROOT; };
+		7532175C088CC0A8005FCA04 /* Events.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Events.plist; sourceTree = "<group>"; };
+		75321761088CC0B1005FCA04 /* Events.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Events.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		75321773088CC128005FCA04 /* EventsPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsPlugin.h; sourceTree = "<group>"; };
+		75321774088CC128005FCA04 /* EventsPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsPlugin.m; sourceTree = "<group>"; };
+		75321775088CC128005FCA04 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		75321776088CC128005FCA04 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		75321777088CC128005FCA04 /* EventAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventAction.h; sourceTree = "<group>"; };
+		75321778088CC128005FCA04 /* EventAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventAction.m; sourceTree = "<group>"; };
+		75321779088CC128005FCA04 /* EventTrigger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventTrigger.h; sourceTree = "<group>"; };
+		7532177A088CC128005FCA04 /* EventTrigger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventTrigger.m; sourceTree = "<group>"; };
+		7532177B088CC128005FCA04 /* EventEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventEditor.h; sourceTree = "<group>"; };
+		7532177C088CC128005FCA04 /* EventEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventEditor.m; sourceTree = "<group>"; };
+		7532177D088CC128005FCA04 /* EventActionEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventActionEditor.h; sourceTree = "<group>"; };
+		7532177E088CC128005FCA04 /* EventActionEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventActionEditor.m; sourceTree = "<group>"; };
+		75321785088CC157005FCA04 /* Events.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = Events.nib; sourceTree = "<group>"; };
+		756ED2D8090359CD00776852 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Growl.framework; path = ../../Frameworks/Growl.framework; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7532175F088CC0B1005FCA04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75321793088CC1A5005FCA04 /* Plugins.framework in Frameworks */,
+				756ED2D9090359CD00776852 /* Growl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75321743088CC051005FCA04 = {
+			isa = PBXGroup;
+			children = (
+				75321752088CC087005FCA04 /* Source */,
+				75321751088CC080005FCA04 /* Resources */,
+				75321750088CC07B005FCA04 /* Frameworks */,
+				75321762088CC0B1005FCA04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75321750088CC07B005FCA04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75321756088CC09F005FCA04 /* Plugins.xcodeproj */,
+				756ED2D8090359CD00776852 /* Growl.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75321751088CC080005FCA04 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				75321785088CC157005FCA04 /* Events.nib */,
+				7532175C088CC0A8005FCA04 /* Events.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		75321752088CC087005FCA04 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				75321773088CC128005FCA04 /* EventsPlugin.h */,
+				75321774088CC128005FCA04 /* EventsPlugin.m */,
+				75321775088CC128005FCA04 /* Event.h */,
+				75321776088CC128005FCA04 /* Event.m */,
+				75321777088CC128005FCA04 /* EventAction.h */,
+				75321778088CC128005FCA04 /* EventAction.m */,
+				75321779088CC128005FCA04 /* EventTrigger.h */,
+				7532177A088CC128005FCA04 /* EventTrigger.m */,
+				7532177B088CC128005FCA04 /* EventEditor.h */,
+				7532177C088CC128005FCA04 /* EventEditor.m */,
+				7532177D088CC128005FCA04 /* EventActionEditor.h */,
+				7532177E088CC128005FCA04 /* EventActionEditor.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		75321757088CC09F005FCA04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7532175B088CC09F005FCA04 /* Plugins.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75321762088CC0B1005FCA04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75321761088CC0B1005FCA04 /* Events.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75321760088CC0B1005FCA04 /* Events.plugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75321764088CC0B2005FCA04 /* Build configuration list for PBXNativeTarget "Events.plugin" */;
+			buildPhases = (
+				7532175D088CC0B1005FCA04 /* Resources */,
+				7532175E088CC0B1005FCA04 /* Sources */,
+				7532175F088CC0B1005FCA04 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Events.plugin-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = Events.plugin;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			dependencies = (
+				75321797088CC1AC005FCA04 /* PBXTargetDependency */,
+			);
+			name = Events.plugin;
+			productName = Events.plugin;
+			productReference = 75321761088CC0B1005FCA04 /* Events.plugin */;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Events.plugin</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.yourcompany.Events_plugin</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+</dict>
+</plist>
+";
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75321745088CC051005FCA04 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 75321746088CC051005FCA04 /* Build configuration list for PBXProject "Events" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				756ED2880903578A00776852 /* Development */,
+				756ED2890903578A00776852 /* Deployment */,
+			);
+			hasScannedForEncodings = 0;
+			mainGroup = 75321743088CC051005FCA04;
+			productRefGroup = 75321762088CC0B1005FCA04 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 75321757088CC09F005FCA04 /* Products */;
+					ProjectRef = 75321756088CC09F005FCA04 /* Plugins.xcodeproj */;
+				},
+			);
+			targets = (
+				75321760088CC0B1005FCA04 /* Events.plugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7532175B088CC09F005FCA04 /* Plugins.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Plugins.framework;
+			remoteRef = 7532175A088CC09F005FCA04 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7532175D088CC0B1005FCA04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75321786088CC157005FCA04 /* Events.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7532175E088CC0B1005FCA04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7532177F088CC128005FCA04 /* EventsPlugin.m in Sources */,
+				75321780088CC128005FCA04 /* Event.m in Sources */,
+				75321781088CC128005FCA04 /* EventAction.m in Sources */,
+				75321782088CC128005FCA04 /* EventTrigger.m in Sources */,
+				75321783088CC128005FCA04 /* EventEditor.m in Sources */,
+				75321784088CC128005FCA04 /* EventActionEditor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75321797088CC1AC005FCA04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Plugins.framework;
+			targetProxy = 75321796088CC1AC005FCA04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		75321747088CC051005FCA04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		75321748088CC051005FCA04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+		75321765088CC0B2005FCA04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../../Frameworks\"";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = Events.plist;
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = Events;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Debug;
+		};
+		75321766088CC0B2005FCA04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../../Frameworks\"";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = Events.plist;
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = Events;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75321746088CC051005FCA04 /* Build configuration list for PBXProject "Events" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75321747088CC051005FCA04 /* Debug */,
+				75321748088CC051005FCA04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		75321764088CC0B2005FCA04 /* Build configuration list for PBXNativeTarget "Events.plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75321765088CC0B2005FCA04 /* Debug */,
+				75321766088CC0B2005FCA04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75321745088CC051005FCA04 /* Project object */;
+}

@@ -1,0 +1,101 @@
+extern const NSString *FCLocationUpdate = @"fourcorners.location";
+
+/** DM to decimal degrees: dd.dddd = dd + mm.mmmm / 60 */
+static double DMtoDeg( double deg, double min)
+{
+    return deg + (min / 60);
+}
+
+/** DMS to decimal degrees: dd.dddd= deg + (min / 60) + (sec / 60 / 60) */
+static double DMStoDeg( double deg, double min, double sec)
+{
+    return deg + (min / 60) + (sec / 60 / 60);
+}
+
+/**  decimal degrees to radians: radians = dd.dddd / 57.2957795  */
+static double degToRad( double degrees)
+{
+    return degrees / 57.2957795;
+}
+
+/** radians to deciman degrees: dd.dddd = radians * 57.2957795 */
+static double radToDeg( double radians)
+{
+    return radians * 57.2957795;
+}
+
+/** nautical miles to meters: M = NM * 1852 */
+static double NMtoMeters( double knots)
+{
+    return knots * 1852;
+}
+
+/** meters to nautical miles: NM = M / 1852 */
+static double metersToNM( double meters)
+{
+    return meters / 1852;
+}
+
+/** nautical miles to miles: MI = NM * 1.150779 */
+static double NMtoMiles( double knots)
+{
+    return knots * 1.150779;
+}
+
+/** miles to nautical miles: NM = MI / 1.150779 */
+static double milesToNM( double miles)
+{
+    return miles / 1.150779;
+}
+
+/** knots to KM/hr: KM/hr = Knots * 1.852 */
+static double knotsToKMPH( double knots)
+{
+    return knots * 1.852;
+}
+
+/** KM/hr to knots: Knots = KM/hr */
+static double KMPHtoKnots( double kmph)
+{
+    return kmph / 1.852;
+}
+
+/**  knots to MI/hr: mph = Knots * 1.150779 */
+static double knotsToMPH( double knots)
+{
+    return knots * 1.150779;
+}
+
+/**  MI/hr to knots: Knots = mph / 1.150779 */
+static double MPHtoKnots( double mph)
+{
+    return mph / 1.150779;
+}
+
+
+
+/*
+UInt32 system_version;
+Gestalt(gestaltSystemVersion, (SInt32 *) &system_version);
+
+if ( system_version >= 0x01000 && system_version < 0x01010)
+	NSLog( @"Mac OS X 10.0 - Cheetah");
+
+else if ( system_version >= 0x01010 && system_version < 0x01020)
+	NSLog( @"Mac OS X 10.1 - Puma");
+
+else if ( system_version >= 0x01020 && system_version < 0x01030)
+	NSLog( @"Mac OS X 10.2 - Jaguar");
+
+else if ( system_version >= 0x01030 && system_version < 0x01040)
+	NSLog( @"Mac OS X 10.3 - Panther");
+
+else if ( system_version >= 0x01040 && system_version < 0x01050)
+	NSLog( @"Mac OS X 10.4 - Tiger");
+
+else if ( system_version >= 0x01050 && system_version < 0x01060)
+	NSLog( @"Mac OS X 10.4 - Leopard");
+
+else
+	NSLog( @"Unknown System Version %x", system_version);
+*/

@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+        "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>iStumbler Subscribe</title>
+        <style type="text/css">
+        body { font-family: sans-serif; }
+        p { margin: 5px; }
+        b { font-size: 18px; text-align: center; }
+        a:link { color: darkgreen; }
+        a:active { color: darkgreen; }
+        a:hover { color: #0C0; }
+        a:visited { color: #030; }
+        .subhead	
+        {
+            font-size: 20px;
+            font-weight: bolder;
+            clear: left;
+        }
+        .subscribe
+        {
+            background: #CF9;
+            padding: 10px;
+            padding-top:-20px;
+            border: 2px solid #360;
+        }
+
+        sup
+        {
+            font-size: 8px;
+            font-weight: bolder;
+        }
+
+        .fineprint
+        {
+            color: #666;
+            font-size: .4em;
+        }
+        .starburst
+        {
+            float: right;
+            width: 128px;
+            height: 128px;
+            text-align: center;
+            padding:5px;
+            padding-top: 30px;
+            background-image: url(starburst.png);
+            background-repeat: no-repeat;
+            background-position: top center;
+        }
+        </style>
+	</head>
+	<body>
+
+<div class="subscribe">
+
+<div class="starburst">
+<form action="https://www.paypal.com/cgi-bin/webscr" 
+	  method="post" class="donateform">
+	  <div>
+<input type="hidden" name="cmd" value="_xclick"/>
+<input type="hidden" name="business" value="alf@istumbler.net"/>
+<input type="hidden" name="return" 
+	   value="http://www.istumbler.net/thanks.html"/>
+<input type="hidden" name="item_name" value="iStumbler"/>
+<input type="hidden" name="item_number" value="96-plugin"/>
+
+<select name="amount">
+	<option value="5">$5</option>
+	<option value="10" selected="selected">$10</option>
+	<option value="15">$15</option>
+</select><br/>
+<input type="submit" value="Subscribe!" /><br/>
+<span style="font-size:10px">Via PayPal</span>
+</div>
+</form>
+</div>
+
+<p class="subhead" style="margin-right:128px;">iStumbler is 
+<a href="http://istumbler.net/subscribe.html#sw"> Subscriptionware</a>, 
+sign up today!</p>
+
+<p>For just $10<sup>1</sup> you can have early access<sup>2</sup> to 
+the next ten releases<sup>3</sup> of iStumbler and help keep iStumbler
+the leading wireless security tool for your Mac.
+<a href="http://istumbler.net/subscribe.html">More info...</a></p>
+<p class="fineprint">
+<strong>1.</strong> We also offer $5 and $15 plans.
+<strong>2.</strong> <a href="http://istumbler.net/subscribe.html#ea">Early access</a> 
+currently via email.
+<strong>3.</strong> New release <a href="http://istumbler.net/changes.html">
+every 4-6 weeks</a>.
+</p>
+</div>
+                
+	</body>
+</html>

@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		753217C1088CC27E005FCA04 /* SubscribePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 753217C0088CC27E005FCA04 /* SubscribePlugin.m */; };
+		753217C6088CC287005FCA04 /* starburst.png in Resources */ = {isa = PBXBuildFile; fileRef = 753217C3088CC287005FCA04 /* starburst.png */; };
+		753217C7088CC287005FCA04 /* subscribe-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 753217C4088CC287005FCA04 /* subscribe-logo.png */; };
+		753217C9088CC296005FCA04 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 753217C8088CC296005FCA04 /* WebKit.framework */; };
+		753217D4088CC2B9005FCA04 /* Plugins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 753217CF088CC2A4005FCA04 /* Plugins.framework */; };
+		753217D8088CC2D1005FCA04 /* SubscribePlugin.nib in Resources */ = {isa = PBXBuildFile; fileRef = 753217D7088CC2D1005FCA04 /* SubscribePlugin.nib */; };
+		75576C3D08FCCB4400D3D813 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75576C3C08FCCB4400D3D813 /* Localizable.strings */; };
+		75576C3E08FCCB4A00D3D813 /* subscribe.html in Resources */ = {isa = PBXBuildFile; fileRef = 753217C2088CC287005FCA04 /* subscribe.html */; };
+		756ED2D1090359B800776852 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 756ED2D0090359B800776852 /* Growl.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		753217CE088CC2A4005FCA04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 753217CA088CC2A4005FCA04 /* Plugins.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 75B3DDA2088777A200F6B90C;
+			remoteInfo = Plugins.framework;
+		};
+		753217D2088CC2AD005FCA04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 753217CA088CC2A4005FCA04 /* Plugins.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 75B3DDA1088777A200F6B90C;
+			remoteInfo = Plugins.framework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		753217AC088CC1FC005FCA04 /* SubscribePlugin.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SubscribePlugin.plist; sourceTree = "<group>"; };
+		753217B3088CC233005FCA04 /* Subscribe.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Subscribe.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		753217B5088CC233005FCA04 /* Subscribe.plugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Subscribe.plugin-Info.plist"; sourceTree = "<group>"; };
+		753217BF088CC27E005FCA04 /* SubscribePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscribePlugin.h; sourceTree = "<group>"; };
+		753217C0088CC27E005FCA04 /* SubscribePlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubscribePlugin.m; sourceTree = "<group>"; };
+		753217C2088CC287005FCA04 /* subscribe.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = subscribe.html; sourceTree = "<group>"; };
+		753217C3088CC287005FCA04 /* starburst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starburst.png; sourceTree = "<group>"; };
+		753217C4088CC287005FCA04 /* subscribe-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "subscribe-logo.png"; sourceTree = "<group>"; };
+		753217C8088CC296005FCA04 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
+		753217CA088CC2A4005FCA04 /* Plugins.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Plugins.xcodeproj; path = ../../Frameworks/Plugins/Plugins.xcodeproj; sourceTree = SOURCE_ROOT; };
+		753217D7088CC2D1005FCA04 /* SubscribePlugin.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = SubscribePlugin.nib; sourceTree = "<group>"; };
+		75576C3408FCCB3500D3D813 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		756ED2D0090359B800776852 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Growl.framework; path = ../../Frameworks/Growl.framework; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		753217B1088CC233005FCA04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				753217D4088CC2B9005FCA04 /* Plugins.framework in Frameworks */,
+				753217C9088CC296005FCA04 /* WebKit.framework in Frameworks */,
+				756ED2D1090359B800776852 /* Growl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7532179A088CC1CA005FCA04 = {
+			isa = PBXGroup;
+			children = (
+				753217A7088CC1DD005FCA04 /* Source */,
+				753217A6088CC1D7005FCA04 /* Resources */,
+				753217A5088CC1D1005FCA04 /* Frameworks */,
+				753217B4088CC233005FCA04 /* Products */,
+				753217B5088CC233005FCA04 /* Subscribe.plugin-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		753217A5088CC1D1005FCA04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				753217CA088CC2A4005FCA04 /* Plugins.xcodeproj */,
+				753217C8088CC296005FCA04 /* WebKit.framework */,
+				756ED2D0090359B800776852 /* Growl.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		753217A6088CC1D7005FCA04 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				753217D7088CC2D1005FCA04 /* SubscribePlugin.nib */,
+				75576C3C08FCCB4400D3D813 /* Localizable.strings */,
+				753217C2088CC287005FCA04 /* subscribe.html */,
+				753217C3088CC287005FCA04 /* starburst.png */,
+				753217C4088CC287005FCA04 /* subscribe-logo.png */,
+				753217AC088CC1FC005FCA04 /* SubscribePlugin.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		753217A7088CC1DD005FCA04 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				753217BF088CC27E005FCA04 /* SubscribePlugin.h */,
+				753217C0088CC27E005FCA04 /* SubscribePlugin.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		753217B4088CC233005FCA04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				753217B3088CC233005FCA04 /* Subscribe.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		753217CB088CC2A4005FCA04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				753217CF088CC2A4005FCA04 /* Plugins.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		753217B2088CC233005FCA04 /* Subscribe.plugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 753217B6088CC235005FCA04 /* Build configuration list for PBXNativeTarget "Subscribe.plugin" */;
+			buildPhases = (
+				753217AF088CC233005FCA04 /* Resources */,
+				753217B0088CC233005FCA04 /* Sources */,
+				753217B1088CC233005FCA04 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				753217D3088CC2AD005FCA04 /* PBXTargetDependency */,
+			);
+			name = Subscribe.plugin;
+			productName = Subscribe.plugin;
+			productReference = 753217B3088CC233005FCA04 /* Subscribe.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7532179C088CC1CA005FCA04 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 7532179D088CC1CA005FCA04 /* Build configuration list for PBXProject "Subscribe" */;
+			hasScannedForEncodings = 0;
+			mainGroup = 7532179A088CC1CA005FCA04;
+			productRefGroup = 753217B4088CC233005FCA04 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 753217CB088CC2A4005FCA04 /* Products */;
+					ProjectRef = 753217CA088CC2A4005FCA04 /* Plugins.xcodeproj */;
+				},
+			);
+			targets = (
+				753217B2088CC233005FCA04 /* Subscribe.plugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		753217CF088CC2A4005FCA04 /* Plugins.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Plugins.framework;
+			remoteRef = 753217CE088CC2A4005FCA04 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		753217AF088CC233005FCA04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75576C3E08FCCB4A00D3D813 /* subscribe.html in Resources */,
+				753217C6088CC287005FCA04 /* starburst.png in Resources */,
+				753217C7088CC287005FCA04 /* subscribe-logo.png in Resources */,
+				753217D8088CC2D1005FCA04 /* SubscribePlugin.nib in Resources */,
+				75576C3D08FCCB4400D3D813 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		753217B0088CC233005FCA04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				753217C1088CC27E005FCA04 /* SubscribePlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		753217D3088CC2AD005FCA04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Plugins.framework;
+			targetProxy = 753217D2088CC2AD005FCA04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75576C3C08FCCB4400D3D813 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75576C3408FCCB3500D3D813 /* English */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7532179E088CC1CA005FCA04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		7532179F088CC1CA005FCA04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+		753217B7088CC235005FCA04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../../Frameworks\"";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = SubscribePlugin.plist;
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = Subscribe;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Debug;
+		};
+		753217B8088CC235005FCA04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../../Frameworks\"";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = SubscribePlugin.plist;
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = Subscribe;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7532179D088CC1CA005FCA04 /* Build configuration list for PBXProject "Subscribe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7532179E088CC1CA005FCA04 /* Debug */,
+				7532179F088CC1CA005FCA04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		753217B6088CC235005FCA04 /* Build configuration list for PBXNativeTarget "Subscribe.plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				753217B7088CC235005FCA04 /* Debug */,
+				753217B8088CC235005FCA04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7532179C088CC1CA005FCA04 /* Project object */;
+}

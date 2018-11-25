@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		752E964909804043004097D8 /* Log.plugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = 753217EE088CC326005FCA04 /* Log.plugin */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		7539C1320B76BFA6007CFDCB /* Plugins.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 759EDE9D0B2CA34F0001D1B0 /* Plugins.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		7539C1330B76BFA6007CFDCB /* RadioStore.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 759EDEA20B2CA3500001D1B0 /* RadioStore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		7539C1340B76BFA6007CFDCB /* FourCorners.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 759EDEA70B2CA3500001D1B0 /* FourCorners.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		754986AB1054176800AD10FD /* Location.plugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = 75B8C0230A4DCAFF00D08163 /* Location.plugin */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		75576BD708FCCA8A00D3D813 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75576BD608FCCA8A00D3D813 /* Localizable.strings */; };
+		75576D9808FCF16B00D3D813 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75576D9708FCF16B00D3D813 /* Growl.framework */; };
+		75576D9B08FCF17500D3D813 /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 75576D9708FCF16B00D3D813 /* Growl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		757A97060A9821570022ED7F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 757A97040A9821570022ED7F /* Credits.rtf */; };
+		757A97280A98260C0022ED7F /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 757A97270A98260C0022ED7F /* Sparkle.framework */; };
+		757A973C0A9826520022ED7F /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 757A97270A98260C0022ED7F /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		759EDEAA0B2CA35E0001D1B0 /* Plugins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 759EDE9D0B2CA34F0001D1B0 /* Plugins.framework */; };
+		759EDEAB0B2CA35E0001D1B0 /* RadioStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 759EDEA20B2CA3500001D1B0 /* RadioStore.framework */; };
+		75AD63D2079059DD008FD6EF /* NetScannerInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AD63C6079059DD008FD6EF /* NetScannerInspector.m */; };
+		75AD63D8079059DD008FD6EF /* NetScannerPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AD63CC079059DD008FD6EF /* NetScannerPrefs.m */; };
+		75AD63DB079059DD008FD6EF /* NetScannerWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AD63CF079059DD008FD6EF /* NetScannerWindow.m */; };
+		75AD63DC079059DD008FD6EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AD63D0079059DD008FD6EF /* main.m */; };
+		75B3E2E808897E1F00F6B90C /* mDNS.plugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = 75B3E18D08877E5400F6B90C /* mDNS.plugin */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		75B3E643088A220B00F6B90C /* AirPort.plugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = 75B3E636088A21EB00F6B90C /* AirPort.plugin */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		75B3E6E5088A259800F6B90C /* Bluetooth.plugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = 75B3E6C6088A253D00F6B90C /* Bluetooth.plugin */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		75C663A10A80689200363003 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C663A00A80689200363003 /* ScreenSaver.framework */; };
+		75C9A20D112A4A3900EE5739 /* NetScannerScanner.nib in Resources */ = {isa = PBXBuildFile; fileRef = 75C9A20C112A4A3900EE5739 /* NetScannerScanner.nib */; };
+		75F566721038F9C300969F4B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F566711038F9C300969F4B /* Cocoa.framework */; };
+		AAC54EEB1186718A001783CB /* NetScanner-logo.icns in Resources */ = {isa = PBXBuildFile; fileRef = AAC54EEA1186718A001783CB /* NetScanner-logo.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		752E97180981780B004097D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75B3E6D0088A256400F6B90C /* Spectrum.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 755FD7FC0875F09D00CFBAE9;
+			remoteInfo = Spectrum.wdgt;
+		};
+		753217ED088CC326005FCA04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 753217E0088CC326005FCA04 /* Log.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7532170A088CBF2B005FCA04;
+			remoteInfo = Log.plugin;
+		};
+		75321801088CC34D005FCA04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 753217E0088CC326005FCA04 /* Log.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 75321709088CBF2B005FCA04;
+			remoteInfo = Log.plugin;
+		};
+		759EDE9C0B2CA34F0001D1B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75B3E23A088979B500F6B90C /* Plugins.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 75B3DDA2088777A200F6B90C;
+			remoteInfo = Plugins.framework;
+		};
+		759EDEA10B2CA3500001D1B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75B3E23D088979B500F6B90C /* RadioStore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 75B3E0EE08877B9000F6B90C;
+			remoteInfo = RadioStore.framework;
+		};
+		759EDEA60B2CA3500001D1B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75B3E237088979B500F6B90C /* FourCorners.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 75B3E30708897F2200F6B90C;
+			remoteInfo = FourCorners.framework;
+		};
+		75B3E18C08877E5400F6B90C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75B3E17E08877E5400F6B90C /* mDNS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 75B3DB850887755B00F6B90C;
+			remoteInfo = mDNS.plugin;
+		};
+		75B3E19808877E6500F6B90C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75B3E17E08877E5400F6B90C /* mDNS.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 75B3DB840887755B00F6B90C;
+			remoteInfo = mDNS.plugin;
+		};
+		75B3E635088A21EB00F6B90C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75B3E62F088A21EB00F6B90C /* AirPort.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 75B3E5A1088A1FAD00F6B90C;
+			remoteInfo = AirPort.plugin;
+		};
+		75B3E63F088A21F500F6B90C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75B3E62F088A21EB00F6B90C /* AirPort.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 75B3E5A0088A1FAD00F6B90C;
+			remoteInfo = AirPort.plugin;
+		};
+		75B3E6C5088A253D00F6B90C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75B3E6BF088A253D00F6B90C /* Bluetooth.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 75B3E659088A237E00F6B90C;
+			remoteInfo = Bluetooth.plugin;
+		};
+		75B3E6D9088A256500F6B90C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75B3E6D0088A256400F6B90C /* Spectrum.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 75F018AB0878624600D82DD5;
+			remoteInfo = Spectrum.widgetplugin;
+		};
+		75B3E6DB088A256500F6B90C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75B3E6D0088A256400F6B90C /* Spectrum.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 75F018F908786E1900D82DD5;
+			remoteInfo = spectrum;
+		};
+		75B3E6E3088A258500F6B90C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75B3E6BF088A253D00F6B90C /* Bluetooth.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 75B3E658088A237E00F6B90C;
+			remoteInfo = Bluetooth.plugin;
+		};
+		75B8C0220A4DCAFF00D08163 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75B8C0190A4DCAFF00D08163 /* Location.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 75321691088CBC59005FCA04;
+			remoteInfo = Location.plugin;
+		};
+		75B8C0260A4DCB1900D08163 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75B8C0190A4DCAFF00D08163 /* Location.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 75321690088CBC59005FCA04;
+			remoteInfo = Location.plugin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		75AD642407905CED008FD6EF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				75576D9B08FCF17500D3D813 /* Growl.framework in CopyFiles */,
+				757A973C0A9826520022ED7F /* Sparkle.framework in CopyFiles */,
+				7539C1320B76BFA6007CFDCB /* Plugins.framework in CopyFiles */,
+				7539C1330B76BFA6007CFDCB /* RadioStore.framework in CopyFiles */,
+				7539C1340B76BFA6007CFDCB /* FourCorners.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75AD668607905EEC008FD6EF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				75B3E643088A220B00F6B90C /* AirPort.plugin in CopyFiles */,
+				75B3E6E5088A259800F6B90C /* Bluetooth.plugin in CopyFiles */,
+				75B3E2E808897E1F00F6B90C /* mDNS.plugin in CopyFiles */,
+				754986AB1054176800AD10FD /* Location.plugin in CopyFiles */,
+				752E964909804043004097D8 /* Log.plugin in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		753217E0088CC326005FCA04 /* Log.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Log.xcodeproj; path = Log/Log.xcodeproj; sourceTree = "<group>"; };
+		75576B9908FCC96E00D3D813 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		75576D9708FCF16B00D3D813 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Growl.framework; sourceTree = "<group>"; };
+		757A97050A9821570022ED7F /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		757A97270A98260C0022ED7F /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		75AD63C0079059CE008FD6EF /* NetScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75AD63C5079059DD008FD6EF /* NetScannerInspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetScannerInspector.h; sourceTree = "<group>"; };
+		75AD63C6079059DD008FD6EF /* NetScannerInspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetScannerInspector.m; sourceTree = "<group>"; };
+		75AD63CB079059DD008FD6EF /* NetScannerPrefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetScannerPrefs.h; sourceTree = "<group>"; };
+		75AD63CC079059DD008FD6EF /* NetScannerPrefs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetScannerPrefs.m; sourceTree = "<group>"; };
+		75AD63CD079059DD008FD6EF /* NetScanner.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NetScanner.plist; sourceTree = "<group>"; };
+		75AD63CE079059DD008FD6EF /* NetScannerWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetScannerWindow.h; sourceTree = "<group>"; };
+		75AD63CF079059DD008FD6EF /* NetScannerWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetScannerWindow.m; sourceTree = "<group>"; };
+		75AD63D0079059DD008FD6EF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75AD676B0790660D008FD6EF /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = /System/Library/Frameworks/IOBluetooth.framework; sourceTree = "<absolute>"; };
+		75AD676C0790660D008FD6EF /* IOBluetoothUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetoothUI.framework; path = /System/Library/Frameworks/IOBluetoothUI.framework; sourceTree = "<absolute>"; };
+		75B3E17E08877E5400F6B90C /* mDNS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mDNS.xcodeproj; path = Plugins/mDNS/mDNS.xcodeproj; sourceTree = SOURCE_ROOT; };
+		75B3E237088979B500F6B90C /* FourCorners.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FourCorners.xcodeproj; path = FourCorners/FourCorners.xcodeproj; sourceTree = "<group>"; };
+		75B3E23A088979B500F6B90C /* Plugins.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Plugins.xcodeproj; path = Plugins/Plugins.xcodeproj; sourceTree = "<group>"; };
+		75B3E23D088979B500F6B90C /* RadioStore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RadioStore.xcodeproj; path = RadioStore/RadioStore.xcodeproj; sourceTree = "<group>"; };
+		75B3E62F088A21EB00F6B90C /* AirPort.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AirPort.xcodeproj; path = Plugins/AirPort/AirPort.xcodeproj; sourceTree = SOURCE_ROOT; };
+		75B3E6BF088A253D00F6B90C /* Bluetooth.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Bluetooth.xcodeproj; path = Plugins/Bluetooth/Bluetooth.xcodeproj; sourceTree = SOURCE_ROOT; };
+		75B3E6D0088A256400F6B90C /* Spectrum.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Spectrum.xcodeproj; path = Widgets/Spectrum/Spectrum.xcodeproj; sourceTree = SOURCE_ROOT; };
+		75B8C0190A4DCAFF00D08163 /* Location.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Location.xcodeproj; path = Location/Location.xcodeproj; sourceTree = "<group>"; };
+		75C663A00A80689200363003 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = /System/Library/Frameworks/ScreenSaver.framework; sourceTree = "<absolute>"; };
+		75C9A20C112A4A3900EE5739 /* NetScannerScanner.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = NetScannerScanner.nib; sourceTree = "<group>"; };
+		75E94B7307F0E6FD00549CF4 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		75EA73930849877700D9D640 /* NetScanner.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetScanner.pch; sourceTree = "<group>"; };
+		75F566711038F9C300969F4B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		AAC54EEA1186718A001783CB /* NetScanner-logo.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "NetScanner-logo.icns"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75AD63BE079059CE008FD6EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759EDEAA0B2CA35E0001D1B0 /* Plugins.framework in Frameworks */,
+				759EDEAB0B2CA35E0001D1B0 /* RadioStore.framework in Frameworks */,
+				75576D9808FCF16B00D3D813 /* Growl.framework in Frameworks */,
+				75C663A10A80689200363003 /* ScreenSaver.framework in Frameworks */,
+				757A97280A98260C0022ED7F /* Sparkle.framework in Frameworks */,
+				75F566721038F9C300969F4B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		753217E1088CC326005FCA04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				753217EE088CC326005FCA04 /* Log.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		759EDE990B2CA34F0001D1B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				759EDE9D0B2CA34F0001D1B0 /* Plugins.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		759EDE9E0B2CA3500001D1B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				759EDEA20B2CA3500001D1B0 /* RadioStore.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		759EDEA30B2CA3500001D1B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				759EDEA70B2CA3500001D1B0 /* FourCorners.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75AD63B207905974008FD6EF = {
+			isa = PBXGroup;
+			children = (
+				75AD63C4079059DD008FD6EF /* Source */,
+				75AD660C07905DD7008FD6EF /* Plugins */,
+				75B3E2E308897DDA00F6B90C /* Widgets */,
+				75AD63FE07905CA6008FD6EF /* Frameworks */,
+				75AD63C1079059CE008FD6EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75AD63C1079059CE008FD6EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75AD63C0079059CE008FD6EF /* NetScanner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75AD63C4079059DD008FD6EF /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				AAC54EEA1186718A001783CB /* NetScanner-logo.icns */,
+				757A97040A9821570022ED7F /* Credits.rtf */,
+				75AD63CD079059DD008FD6EF /* NetScanner.plist */,
+				75C9A20C112A4A3900EE5739 /* NetScannerScanner.nib */,
+				75576BD608FCCA8A00D3D813 /* Localizable.strings */,
+				75EA73930849877700D9D640 /* NetScanner.pch */,
+				75AD63D0079059DD008FD6EF /* main.m */,
+				75AD63CE079059DD008FD6EF /* NetScannerWindow.h */,
+				75AD63CF079059DD008FD6EF /* NetScannerWindow.m */,
+				75AD63C5079059DD008FD6EF /* NetScannerInspector.h */,
+				75AD63C6079059DD008FD6EF /* NetScannerInspector.m */,
+				75AD63CB079059DD008FD6EF /* NetScannerPrefs.h */,
+				75AD63CC079059DD008FD6EF /* NetScannerPrefs.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		75AD63FE07905CA6008FD6EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75B3E23A088979B500F6B90C /* Plugins.xcodeproj */,
+				75B3E23D088979B500F6B90C /* RadioStore.xcodeproj */,
+				75B3E237088979B500F6B90C /* FourCorners.xcodeproj */,
+				75AD676B0790660D008FD6EF /* IOBluetooth.framework */,
+				75AD676C0790660D008FD6EF /* IOBluetoothUI.framework */,
+				75E94B7307F0E6FD00549CF4 /* IOKit.framework */,
+				75576D9708FCF16B00D3D813 /* Growl.framework */,
+				757A97270A98260C0022ED7F /* Sparkle.framework */,
+				75C663A00A80689200363003 /* ScreenSaver.framework */,
+				75F566711038F9C300969F4B /* Cocoa.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		75AD660C07905DD7008FD6EF /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				75B3E62F088A21EB00F6B90C /* AirPort.xcodeproj */,
+				75B3E6BF088A253D00F6B90C /* Bluetooth.xcodeproj */,
+				75B3E17E08877E5400F6B90C /* mDNS.xcodeproj */,
+				75B8C0190A4DCAFF00D08163 /* Location.xcodeproj */,
+				753217E0088CC326005FCA04 /* Log.xcodeproj */,
+			);
+			path = Plugins;
+			sourceTree = "<group>";
+		};
+		75B3E18908877E5400F6B90C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75B3E18D08877E5400F6B90C /* mDNS.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75B3E2E308897DDA00F6B90C /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				75B3E6D0088A256400F6B90C /* Spectrum.xcodeproj */,
+			);
+			name = Widgets;
+			sourceTree = "<group>";
+		};
+		75B3E632088A21EB00F6B90C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75B3E636088A21EB00F6B90C /* AirPort.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75B3E6C2088A253D00F6B90C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75B3E6C6088A253D00F6B90C /* Bluetooth.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75B3E6D4088A256500F6B90C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75B3E6DA088A256500F6B90C /* Spectrum.widgetplugin */,
+				75B3E6DC088A256500F6B90C /* spectrum */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75B8C01A0A4DCAFF00D08163 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75B8C0230A4DCAFF00D08163 /* Location.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75AD63BF079059CE008FD6EF /* NetScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75C2E8F00855279C00192F4B /* Build configuration list for PBXNativeTarget "NetScanner" */;
+			buildPhases = (
+				75AD63BD079059CE008FD6EF /* Sources */,
+				75AD63BC079059CE008FD6EF /* Resources */,
+				75AD63BE079059CE008FD6EF /* Frameworks */,
+				75AD642407905CED008FD6EF /* CopyFiles */,
+				75AD668607905EEC008FD6EF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75B3E640088A21F500F6B90C /* PBXTargetDependency */,
+				75B3E6E4088A258500F6B90C /* PBXTargetDependency */,
+				75B3E19908877E6500F6B90C /* PBXTargetDependency */,
+				75B8C0270A4DCB1900D08163 /* PBXTargetDependency */,
+				75321802088CC34D005FCA04 /* PBXTargetDependency */,
+				752E97190981780B004097D8 /* PBXTargetDependency */,
+			);
+			name = NetScanner;
+			productName = iStumbler;
+			productReference = 75AD63C0079059CE008FD6EF /* NetScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75AD63B607905974008FD6EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = MyBrightZone;
+			};
+			buildConfigurationList = 75C2E8F80855279C00192F4B /* Build configuration list for PBXProject "NetScanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 75AD63B207905974008FD6EF;
+			productRefGroup = 75AD63C1079059CE008FD6EF /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 75B3E632088A21EB00F6B90C /* Products */;
+					ProjectRef = 75B3E62F088A21EB00F6B90C /* AirPort.xcodeproj */;
+				},
+				{
+					ProductGroup = 75B3E6C2088A253D00F6B90C /* Products */;
+					ProjectRef = 75B3E6BF088A253D00F6B90C /* Bluetooth.xcodeproj */;
+				},
+				{
+					ProductGroup = 759EDEA30B2CA3500001D1B0 /* Products */;
+					ProjectRef = 75B3E237088979B500F6B90C /* FourCorners.xcodeproj */;
+				},
+				{
+					ProductGroup = 75B8C01A0A4DCAFF00D08163 /* Products */;
+					ProjectRef = 75B8C0190A4DCAFF00D08163 /* Location.xcodeproj */;
+				},
+				{
+					ProductGroup = 753217E1088CC326005FCA04 /* Products */;
+					ProjectRef = 753217E0088CC326005FCA04 /* Log.xcodeproj */;
+				},
+				{
+					ProductGroup = 75B3E18908877E5400F6B90C /* Products */;
+					ProjectRef = 75B3E17E08877E5400F6B90C /* mDNS.xcodeproj */;
+				},
+				{
+					ProductGroup = 759EDE990B2CA34F0001D1B0 /* Products */;
+					ProjectRef = 75B3E23A088979B500F6B90C /* Plugins.xcodeproj */;
+				},
+				{
+					ProductGroup = 759EDE9E0B2CA3500001D1B0 /* Products */;
+					ProjectRef = 75B3E23D088979B500F6B90C /* RadioStore.xcodeproj */;
+				},
+				{
+					ProductGroup = 75B3E6D4088A256500F6B90C /* Products */;
+					ProjectRef = 75B3E6D0088A256400F6B90C /* Spectrum.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				75AD63BF079059CE008FD6EF /* NetScanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		753217EE088CC326005FCA04 /* Log.plugin */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Log.plugin;
+			remoteRef = 753217ED088CC326005FCA04 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		759EDE9D0B2CA34F0001D1B0 /* Plugins.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Plugins.framework;
+			remoteRef = 759EDE9C0B2CA34F0001D1B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		759EDEA20B2CA3500001D1B0 /* RadioStore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RadioStore.framework;
+			remoteRef = 759EDEA10B2CA3500001D1B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		759EDEA70B2CA3500001D1B0 /* FourCorners.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FourCorners.framework;
+			remoteRef = 759EDEA60B2CA3500001D1B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		75B3E18D08877E5400F6B90C /* mDNS.plugin */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = mDNS.plugin;
+			remoteRef = 75B3E18C08877E5400F6B90C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		75B3E636088A21EB00F6B90C /* AirPort.plugin */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AirPort.plugin;
+			remoteRef = 75B3E635088A21EB00F6B90C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		75B3E6C6088A253D00F6B90C /* Bluetooth.plugin */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Bluetooth.plugin;
+			remoteRef = 75B3E6C5088A253D00F6B90C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		75B3E6DA088A256500F6B90C /* Spectrum.widgetplugin */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Spectrum.widgetplugin;
+			remoteRef = 75B3E6D9088A256500F6B90C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		75B3E6DC088A256500F6B90C /* spectrum */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = spectrum;
+			remoteRef = 75B3E6DB088A256500F6B90C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		75B8C0230A4DCAFF00D08163 /* Location.plugin */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Location.plugin;
+			remoteRef = 75B8C0220A4DCAFF00D08163 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75AD63BC079059CE008FD6EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75576BD708FCCA8A00D3D813 /* Localizable.strings in Resources */,
+				757A97060A9821570022ED7F /* Credits.rtf in Resources */,
+				75C9A20D112A4A3900EE5739 /* NetScannerScanner.nib in Resources */,
+				AAC54EEB1186718A001783CB /* NetScanner-logo.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75AD63BD079059CE008FD6EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75AD63D2079059DD008FD6EF /* NetScannerInspector.m in Sources */,
+				75AD63D8079059DD008FD6EF /* NetScannerPrefs.m in Sources */,
+				75AD63DB079059DD008FD6EF /* NetScannerWindow.m in Sources */,
+				75AD63DC079059DD008FD6EF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		752E97190981780B004097D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Spectrum.wdgt;
+			targetProxy = 752E97180981780B004097D8 /* PBXContainerItemProxy */;
+		};
+		75321802088CC34D005FCA04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Log.plugin;
+			targetProxy = 75321801088CC34D005FCA04 /* PBXContainerItemProxy */;
+		};
+		75B3E19908877E6500F6B90C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mDNS.plugin;
+			targetProxy = 75B3E19808877E6500F6B90C /* PBXContainerItemProxy */;
+		};
+		75B3E640088A21F500F6B90C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AirPort.plugin;
+			targetProxy = 75B3E63F088A21F500F6B90C /* PBXContainerItemProxy */;
+		};
+		75B3E6E4088A258500F6B90C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Bluetooth.plugin;
+			targetProxy = 75B3E6E3088A258500F6B90C /* PBXContainerItemProxy */;
+		};
+		75B8C0270A4DCB1900D08163 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Location.plugin;
+			targetProxy = 75B8C0260A4DCB1900D08163 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75576BD608FCCA8A00D3D813 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75576B9908FCC96E00D3D813 /* English */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		757A97040A9821570022ED7F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				757A97050A9821570022ED7F /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7512C68E0AA5E5CB00369670 /* 64 Bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Source/NetScanner.pch;
+				INFOPLIST_FILE = Source/NetScanner.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mybrightzone.NetScanner;
+				PRODUCT_NAME = NetScanner;
+			};
+			name = "64 Bit";
+		};
+		7512C68F0AA5E5CB00369670 /* 64 Bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+			};
+			name = "64 Bit";
+		};
+		75C2E8F10855279C00192F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Source/NetScanner.pch;
+				INFOPLIST_FILE = Source/NetScanner.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mybrightzone.NetScanner;
+				PRODUCT_NAME = NetScanner;
+			};
+			name = Debug;
+		};
+		75C2E8F20855279C00192F4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Source/NetScanner.pch;
+				INFOPLIST_FILE = Source/NetScanner.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mybrightzone.NetScanner;
+				PRODUCT_NAME = NetScanner;
+			};
+			name = Release;
+		};
+		75C2E8F90855279C00192F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		75C2E8FA0855279C00192F4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75C2E8F00855279C00192F4B /* Build configuration list for PBXNativeTarget "NetScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C2E8F10855279C00192F4B /* Debug */,
+				75C2E8F20855279C00192F4B /* Release */,
+				7512C68E0AA5E5CB00369670 /* 64 Bit */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75C2E8F80855279C00192F4B /* Build configuration list for PBXProject "NetScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C2E8F90855279C00192F4B /* Debug */,
+				75C2E8FA0855279C00192F4B /* Release */,
+				7512C68F0AA5E5CB00369670 /* 64 Bit */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75AD63B607905974008FD6EF /* Project object */;
+}

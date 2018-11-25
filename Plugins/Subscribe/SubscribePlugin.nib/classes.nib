@@ -1,0 +1,25 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = Plugin; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = PluginsEnvironment; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {onPrefsActivate = id; onPrefsSubscribe = id; onShop = id; onSubscribe = id; }; 
+            CLASS = SubscribePlugin; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "prefs_activate" = NSButton; 
+                "prefs_email" = NSTextField; 
+                "prefs_subscribe" = NSButton; 
+                "subscribe_inspector" = NSView; 
+                "subscribe_page" = WebView; 
+                "subscribe_prefs" = NSView; 
+                "subscribe_view" = NSView; 
+                "toolbar_shop" = NSButton; 
+                "toolbar_subscribe" = NSButton; 
+            }; 
+            SUPERCLASS = Plugin; 
+        }
+    ); 
+    IBVersion = 1; 
+}
