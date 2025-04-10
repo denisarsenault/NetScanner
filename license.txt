@@ -1,4 +1,4 @@
-Copyright (c) 02006, Alf Watt (alf@istumbler.net). All rights reserved.
+Copyright (c) Mybrightzone. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without 
 modification, are permitted provided that the following conditions 
